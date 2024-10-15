@@ -71,7 +71,7 @@ void benchmarkMultipleSymbols(int numSymbols, int numUpdates) {
     std::chrono::duration<double> elapsed = end - start;
     std::cout << "Benchmark completed in " << elapsed.count() << " seconds." << std::endl;
 
-    symbolBooks.printBestBidAsk();
+    //symbolBooks.printBestBidAsk();
 }
 
 int main()
